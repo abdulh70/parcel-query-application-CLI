@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database.models import Base
 
-# Database URL (use SQLite for simplicity)
+
 DATABASE_URL = 'sqlite:///land_query_app.db'
 
 # Initialize database engine
